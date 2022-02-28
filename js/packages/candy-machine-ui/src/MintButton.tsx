@@ -56,6 +56,7 @@ export const MintButton = ({
 
   return (
     <CTAButton
+      className="addImg"
       disabled={clicked || isMinting || !isActive}
       onClick={async () => {
         setClicked(true);

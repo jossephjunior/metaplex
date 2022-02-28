@@ -287,7 +287,7 @@ const Home = (props: HomeProps) => {
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: '#151A1F',
+            backgroundColor: 'transparent',
             borderRadius: 6,
           }}
         >

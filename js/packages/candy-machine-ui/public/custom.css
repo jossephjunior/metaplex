@@ -1,0 +1,40 @@
+html {
+  background-image: url("imgs/bgfhd.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.test{}
+
+#root {
+  margin-top:  48vh;
+}
+
+@media (max-width: 500px) {
+  html {
+    background-size: 250%;
+    background-color: 250%;
+  }
+}
+
+@media (max-height: 600px) {
+  #root {
+    margin-top:  275px;
+  }
+}
+
+@media (max-height: 425px) {
+  #root {
+    margin-top:  200px;
+  }
+}
+
+.addImg {
+  background: url('imgs/claimbutton2.png') !important;
+  background-size: contain !important;
+  background-position: top !important;
+  background-repeat: no-repeat !important;
+}

@@ -5,30 +5,39 @@ html {
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden !important;
+  margin: 0;
 }
 
-.test{}
-
 #root {
-  margin-top:  48vh;
+  margin-top:  45vh;
+}
+
+@media (max-width: 1080px) {
+    html {
+      background-image: url("imgs/bgmobile.png") !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      position: absolute !important;
+      margin: 0 !important;
+      width: 100% !important;
+    }
+    #root {
+      margin-top:  40vh !important;
+    }
 }
 
 @media (max-width: 500px) {
   html {
-    background-size: 250%;
-    background-color: 250%;
+    background-image: url("imgs/bgmobile.png") !important;
+    background-size: cover !important;
+    background-position: top !important;
+    position: absolute !important;
+    margin: 0 !important;
+    width: 100% !important;
   }
-}
-
-@media (max-height: 600px) {
   #root {
-    margin-top:  275px;
-  }
-}
-
-@media (max-height: 425px) {
-  #root {
-    margin-top:  200px;
+    margin-top:  40vh !important;
   }
 }
 

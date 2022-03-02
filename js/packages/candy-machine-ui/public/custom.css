@@ -1,32 +1,3 @@
-html {
-  background-image: url("imgs/bgfhd.png");
-  position: relative;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden !important;
-  margin: 0;
-}
-
-#root {
-  margin-top:  45vh;
-}
-
-@media (max-width: 1080px) {
-    html {
-      background-image: url("imgs/bgmobile.png") !important;
-      background-size: cover !important;
-      background-position: center center !important;
-      position: absolute !important;
-      margin: 0 !important;
-      width: 100% !important;
-    }
-    #root {
-      margin-top:  40vh !important;
-    }
-}
-
 @media (max-width: 500px) {
   html {
     background-image: url("imgs/bgmobile.png") !important;
@@ -39,6 +10,22 @@ html {
   #root {
     margin-top:  40vh !important;
   }
+}
+
+html {
+  font-family: 'owl_cute' !important;
+  background-image: url("imgs/bgfhd.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden !important;
+  margin: 0;
+}
+
+#root {
+  margin-top:  45vh;
 }
 
 .addImg {

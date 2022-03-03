@@ -1,26 +1,14 @@
-@media (max-width: 500px) {
-  html {
-    background-image: url("imgs/bgmobile.png") !important;
-    background-size: cover !important;
-    background-position: top !important;
-    position: absolute !important;
-    margin: 0 !important;
-    width: 100% !important;
-  }
-  #root {
-    margin-top:  40vh !important;
-  }
+* {
+  font-family: 'owl_cuteregular' !important;
 }
 
 html {
-  font-family: 'owl_cute' !important;
   background-image: url("imgs/bgfhd.png");
   position: relative;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden !important;
   margin: 0;
 }
 
@@ -33,4 +21,18 @@ html {
   background-size: contain !important;
   background-position: top !important;
   background-repeat: no-repeat !important;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    background-image: url("imgs/bgmobile.png");
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+  }
+  #root {
+    margin-top:  40vh;
+  }
 }

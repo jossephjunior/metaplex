@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+@font-face {
+    font-family: 'owl_cuteregular';
+    src: url('fonts/owl_cute-webfont.woff2') format('woff2'),
+         url('fonts/owl_cute-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  font-family: 'owl_cuteregular';
+}
